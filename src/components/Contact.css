@@ -1,0 +1,59 @@
+:root {
+    --color1: #3ac8db;
+}
+
+.contact-form {
+    text-align: center;
+    margin: 25% 25%;
+    color: var(--color1);
+}
+
+input:not(.submit, .reset) {
+    background-color: #232B29;
+    width: 100%;
+    height: minmax(26px, 32px);
+    color: var(--color1);
+    resize: vertical;
+}
+
+.btn-container {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+
+}
+#title {
+    font-size: 36px;
+    font-family: 'Maven Pro', sans-serif;
+}
+.submit,
+.reset {
+    width: 100%;
+}
+
+input,
+textarea {
+    background-color: #232B29;
+    font-size: 18px;
+    border: 2px solid white;
+    resize: none;
+    width: 100%;
+    border-radius: 4px;
+    color: var(--color1);
+
+}
+
+@media screen and (max-width:990px) {
+
+    .contact-form {
+        margin: 60% 0 20% 0;
+        padding: 0;
+    }
+
+    #title {
+        font-size: 16px;
+    }
+
+
+}
