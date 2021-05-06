@@ -8,17 +8,17 @@ import './App.css';
 
 
 
-    class Nav extends React.Component {
-constructor(props){
+class Nav extends React.Component {
+    constructor(props){
     super(props);
     this.state = {
         isAboutVisible: false,
         isWorkVisible: false,
         isSkillsVisible:false,
-      };
-      this.handleAbout = this.handleAbout.bind(this);
-      this.handleWork = this.handleWork.bind(this);
-      this.handleSkills = this.handleSkills.bind(this);
+    };
+    this.handleAbout = this.handleAbout.bind(this);
+    this.handleWork = this.handleWork.bind(this);
+    this.handleSkills = this.handleSkills.bind(this);
 }        
         
         handleAbout(){
@@ -31,7 +31,6 @@ constructor(props){
             this.setState(state =>({isSkillsVisible:!state.isSkillsVisible}));
         }
         
-      
         render() {
             
             return (
@@ -47,7 +46,7 @@ constructor(props){
                 </ul>
             </div>
                 
-             )};
+            )};
     
 
 } 

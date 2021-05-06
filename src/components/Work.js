@@ -2,10 +2,11 @@ import React from 'react';
 import Bar from './images/bar.jpg'
 import Secrets from './images/secrets.jpg'
 import Sticky from './images/sticky.jpg'
+import Jane from './images/jane.png'
 
 
 
-function Work(){
+export default function Work(){
     return (
     
         <div class="grid-container">
@@ -39,6 +40,16 @@ function Work(){
       <a href="https://csb-1tl43-k3g9g9kz2-cubas93.vercel.app/" class="btn">Visit Site</a>
     </div>
   </div>
+  <div class="image">
+    <img class="image__img" src={Jane} alt="JaneDesigns website" />
+    <div class="image__overlay image__overlay--blur">
+      <div class="image__title">Jane Designs</div>
+      <p class="image__description">
+        HTML, CSS, JS
+      </p>
+      <a href="https://sharp-bardeen-caa178.netlify.app/" class="btn">Visit Site</a>
+    </div>
+  </div>
 
     </div>
 
@@ -47,4 +58,3 @@ function Work(){
     );
 }
 
-export default Work;

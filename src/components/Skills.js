@@ -1,8 +1,8 @@
 import React from 'react';
 import {FaBootstrap, FaNodeJs, FaReact, FaHtml5, FaCss3} from 'react-icons/fa';
-import {DiMongodb} from 'react-icons/di';
+import {DiMongodb, DiJavascript1} from 'react-icons/di';
 
-function Skills(){
+export default function Skills(){
 
 return (
     <div class="icon-container">
@@ -20,11 +20,12 @@ return (
     <li class="skills"> CSS3 </li>
     <DiMongodb className="icon"/>
     <li class="skills"> MongoDB </li>
+    <DiJavascript1 className="icon"/>
+    <li class="skills"> JavaScript </li>
     </div>
 </div>)
 }
 
-export default Skills;
 
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGithub, FaFacebook} from "react-icons/fa";
 
 
-function Footer() {
+export default function Footer() {
   const year = new Date().getFullYear();
   return (
     
@@ -20,5 +20,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;

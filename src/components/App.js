@@ -6,7 +6,7 @@ import Contact from './Contact';
 import './App.css';
 
 
-function App() {
+export default function App() {
 
 
 
@@ -19,5 +19,3 @@ function App() {
     </body>
   );
 }
-
-export default App;
